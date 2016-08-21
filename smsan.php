@@ -23,7 +23,7 @@ $data = array(
     'validity' => 3
 );
 
-$process = curl_init("https://api.silverstreet.com/send.php");
+$process = curl_init("http://smsapi.aplikasiniaga.com/send.php");
 curl_setopt($process, CURLOPT_TIMEOUT, 10);
 curl_setopt($process, CURLOPT_RETURNTRANSFER, TRUE);
 curl_setopt($process, CURLOPT_SSL_VERIFYPEER, FALSE);
